@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+    <div class="outer-box">
+      <div class="acc">FINANCE RESOURCE HUB</div>
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Login</h1>
+                <p>It just takes 30 seconds</p>
+            </header>
+            <main class="signup-body">
+                <form action="/user/logged" method="post">
+                    <p>
+                      <label for="fullname">Name</label>
+                      <input
+                        type="text"
+                        id="fullname"
+                        placeholder="Divyansh Garg"
+                        name="username"
+                        required
+                      />
+                    </p>
+                    <p>
+                      <label for="email">Your Email</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="emailID"
+                        placeholder="example@gmail.com"
+                        required
+                      />
+                    </p>
+                    <p>
+                      <label for="password">Your password</label>
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder=" at least 8 characters "
+                        required
+                      />
+                    </p>
+                    <p>
+                      <input type="submit" id="submit" value="Login" />
+                    </p>
+                  </form>
+                </main>
+        
+                
+            </div>
+          </body>
+        </html>
+        
